@@ -3,176 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Converter </title>
+    <title>Download Processed File - Elite Digital Tools</title>
     
-    <meta name="google-site-verification" content="ByykX6qaniRV46wT76IzXF1ibuTM_aa8Y1ofoF0NFcOWY" />
+    <meta name="description" content="Download your converted high-quality files instantly. Safe, secure, and fast.">
+    
+    <script src="https://pl29231727.profitablecpmratenetwork.com/a9/64/78/a96478e0d59722f3e5506c1d279cae85.js"></script>
 
-    <meta name="description" content="A professional-grade image converter to transform photos into JPG, PNG, WebP, PDF, and ICO instantly.">
-    <meta name="keywords" content="image converter, photo converter, online image converter, png to jpg, jpg to png, convert image to pdf, image to webp, webp converter, ico maker, favicon generator, svg to png, free image converter, best online converter, high quality image converter, image transformation tool, bulk image converter, image format changer, convert jpeg to png, convert png to jpeg, convert image to webp online, fast image converter, easy image converter, photo to pdf converter, image to pdf online, bmp to png, tiff to jpg, image compression, image resizer, image tools, digital utility tools, convert photo to pdf, image to ico, logo converter, transparent image converter, best photo tools, convert image to gif, gif converter, convert picture to pdf, elite converter, online pdf maker from image, image to document, professional image tool, image optimizer, image extension changer, convert image free">
-    
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7690803775663030" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Outfit:wght@400;700;900&display=swap');
-        body { font-family: 'Outfit', 'Hind Siliguri', sans-serif; background: #020617; color: #f8fafc; }
-        .premium-card { 
-            background: rgba(15, 23, 42, 0.8); 
-            backdrop-filter: blur(25px); 
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-        }
-        .btn-glow {
-            background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        .btn-glow:hover { 
-            box-shadow: 0 0 30px rgba(59, 130, 246, 0.5); 
-            transform: translateY(-4px) scale(1.02); 
-        }
-        .drop-zone {
-            background: repeating-linear-gradient(45deg, rgba(30, 41, 59, 0.3), rgba(30, 41, 59, 0.3) 10px, rgba(15, 23, 42, 0.3) 10px, rgba(15, 23, 42, 0.3) 20px);
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap');
+        body { font-family: 'Outfit', sans-serif; background: #0f172a; color: white; min-height: 100vh; }
+        .premium-card { background: rgba(30, 41, 59, 0.6); backdrop-filter: blur(25px); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .loader { border-top-color: #3b82f6; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .btn-glow:hover { box-shadow: 0 0 20px rgba(22, 163, 74, 0.4); transform: translateY(-2px); }
     </style>
 </head>
-<body class="min-h-screen py-10 px-4">
+<body class="flex flex-col items-center py-8 px-4">
 
-    <div class="max-w-4xl mx-auto">
-        <div class="premium-card p-8 md:p-16 rounded-[3.5rem] relative overflow-hidden">
+    <div class="mb-6">
+        <script type="text/javascript">
+            atOptions = { 'key' : 'defbcbda8ac176017b82d3ea7b839fa2', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+        </script>
+        <script type="text/javascript" src="https://www.highperformanceformat.com/defbcbda8ac176017b82d3ea7b839fa2/invoke.js"></script>
+    </div>
+
+    <div class="max-w-4xl w-full flex flex-col md:flex-row gap-6">
+        
+        <div class="hidden lg:flex flex-col gap-4">
+            <script type="text/javascript">
+                atOptions = { 'key' : 'dd5c6ca73235a8f50dcb63ebafeb6536', 'format' : 'iframe', 'height' : 600, 'width' : 160, 'params' : {} };
+            </script>
+            <script type="text/javascript" src="https://www.highperformanceformat.com/dd5c6ca73235a8f50dcb63ebafeb6536/invoke.js"></script>
+
+            <script type="text/javascript">
+                atOptions = { 'key' : 'bc0cc45f7e592f63ea078f63fd78be0b', 'format' : 'iframe', 'height' : 300, 'width' : 160, 'params' : {} };
+            </script>
+            <script type="text/javascript" src="https://www.highperformanceformat.com/bc0cc45f7e592f63ea078f63fd78be0b/invoke.js"></script>
+        </div>
+
+        <div class="flex-1 premium-card p-8 md:p-12 rounded-[3.5rem] text-center relative overflow-hidden">
             
-            <div class="absolute top-0 right-0 w-64 h-64 bg-blue-600/10 rounded-full blur-3xl -mr-32 -mt-32"></div>
-            <div class="absolute bottom-0 left-0 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl -ml-32 -mb-32"></div>
-
-            <header class="text-center mb-12 relative">
-                <h1 class="text-5xl md:text-7xl font-black mb-4 tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-cyan-400">
-                    Elite Converter
-                </h1>
-                <p class="text-slate-400 text-lg md:text-xl font-medium tracking-wide">Professional Grade Image & PDF Transformation Tool</p>
-            </header>
-
-            <div class="mb-10 text-center p-3 bg-white/5 rounded-3xl border border-white/10 overflow-hidden">
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7690803775663030" data-ad-slot="6417293900" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            <div id="loading" class="py-10">
+                <div class="loader ease-linear rounded-full border-4 border-t-4 border-slate-800 h-16 w-16 mx-auto mb-6"></div>
+                <h2 class="text-xl font-black text-blue-400 uppercase tracking-tighter">Preparing Your File...</h2>
             </div>
 
-            <div class="space-y-10 relative">
-                <div class="relative group border-2 border-dashed border-blue-500/20 rounded-[2.5rem] p-12 md:p-20 text-center hover:border-blue-500/50 transition-all cursor-pointer drop-zone">
-                    <input type="file" id="fileInput" class="absolute inset-0 opacity-0 cursor-pointer z-10" accept=".jpg, .jpeg, .png, .webp, .bmp, .tiff, .svg, .ico, application/pdf">
-                    <div id="statusText">
-                        <div class="bg-blue-500/10 w-20 h-20 rounded-3xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-                            </svg>
-                        </div>
-                        <p class="text-2xl font-black text-white">Select Your File</p>
-                        <p class="text-slate-500 mt-3 text-sm font-bold uppercase tracking-[0.2em]">JPG • PNG • WebP • PDF • ICO</p>
-                    </div>
+            <div id="readyArea" class="hidden">
+                <div class="mb-6 flex justify-center">
+                    <script type="text/javascript">
+                        atOptions = { 'key' : '266672493cb80548f73e759ea4de5f76', 'format' : 'iframe', 'height' : 60, 'width' : 468, 'params' : {} };
+                    </script>
+                    <script type="text/javascript" src="https://www.highperformanceformat.com/266672493cb80548f73e759ea4de5f76/invoke.js"></script>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="space-y-3">
-                        <label class="text-blue-400 font-black uppercase text-xs tracking-widest ml-2">Output Format</label>
-                        <div class="relative">
-                            <select id="format" class="w-full bg-slate-900 border-2 border-white/5 p-5 rounded-2xl outline-none focus:border-blue-500 text-white font-black appearance-none cursor-pointer transition-all">
-                                <option value="image/jpeg">JPG / JPEG (Standard)</option>
-                                <option value="image/png">PNG (Transparent)</option>
-                                <option value="image/webp">WEBP (Web Optimized)</option>
-                                <option value="application/pdf">PDF (Document)</option>
-                                <option value="image/x-icon">ICO (Favicon Maker)</option>
-                                <option value="image/bmp">BMP (Bitmap)</option>
-                            </select>
-                            <div class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none text-slate-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                        </div>
+                <div class="mb-8">
+                    <div class="bg-green-500/10 text-green-500 p-4 rounded-full inline-block mb-4 border border-green-500/20">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
                     </div>
-                    <div class="flex items-end">
-                        <button id="convertBtn" class="w-full btn-glow text-white font-black py-5 rounded-2xl transition-all text-xl uppercase tracking-tighter shadow-2xl">
-                            Convert Now →
-                        </button>
-                    </div>
+                    <h2 class="text-3xl font-black text-white tracking-tight">File is Ready!</h2>
+                </div>
+
+                <div class="mb-8 flex justify-center">
+                    <script type="text/javascript">
+                        atOptions = { 'key' : '3ec990079b83093ee801d9624caa303d', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+                    </script>
+                    <script type="text/javascript" src="https://www.highperformanceformat.com/3ec990079b83093ee801d9624caa303d/invoke.js"></script>
+                </div>
+
+                <div class="space-y-4">
+                    <a id="downloadBtn" href="#" class="btn-glow block w-full bg-green-600 hover:bg-green-500 text-white font-black py-5 rounded-2xl shadow-2xl transition-all text-xl uppercase tracking-widest">
+                        Download Now
+                    </a>
+                    <a href="index.html" class="inline-block mt-4 text-slate-400 hover:text-blue-400 transition-colors font-bold uppercase text-xs tracking-widest">
+                        ← Convert Another
+                    </a>
                 </div>
             </div>
 
-            <div class="mt-24 pt-16 border-t border-white/5 relative">
-                <h2 class="text-3xl font-black text-white mb-8 italic tracking-tight">The Future of Image Transformation</h2>
-                <div class="space-y-6 text-slate-400 leading-relaxed text-justify text-sm md:text-base">
-                    <p>
-                        Welcome to our <strong>Elite Converter</strong>, your ultimate destination for high-fidelity image and document transformation. In today’s fast-paced digital era, the ability to switch between file formats seamlessly is not just a convenience—it's a necessity. Whether you are a web developer optimizing assets for performance or a professional converting photos into document-ready PDF formats, our engine is built to handle it all with precision.
-                    </p>
-                    <p>
-                        Our conversion technology utilizes advanced <strong>Client-Side Processing</strong>. This means your files never leave your device, ensuring 100% privacy and security. Unlike traditional online converters that upload your personal data to remote servers, our platform performs every calculation right in your browser. This approach makes our tool incredibly fast, as there is no waiting for uploads or downloads from a central server.
-                    </p>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
-                        <div class="p-6 bg-white/5 rounded-[2rem] border border-white/10">
-                            <h4 class="text-blue-400 font-black mb-2 uppercase tracking-widest text-xs">Web Optimization</h4>
-                            <p class="text-xs text-slate-500">Convert bulky PNGs to WebP to reduce site load times by up to 80% without losing visual clarity.</p>
-                        </div>
-                        <div class="p-6 bg-white/5 rounded-[2rem] border border-white/10">
-                            <h4 class="text-indigo-400 font-black mb-2 uppercase tracking-widest text-xs">PDF Generator</h4>
-                            <p class="text-xs text-slate-500">Transform your scanned images or identity cards into a single, professional PDF document ready for submission.</p>
-                        </div>
-                    </div>
-
-                    <p>
-                        For developers and UI designers, our <strong>ICO Favicon Generator</strong> is a critical tool. Simply upload your logo, select the ICO format, and get a perfectly formatted icon for your website in seconds. We also support transparent PNG conversions, ensuring that your branding remains sharp across all backgrounds and device displays.
-                    </p>
-                    <p>
-                        Our team has engineered this tool with a "Performance-First" philosophy. We understand that users often deal with varying internet speeds and device capabilities. By eliminating the server-upload barrier, we provide a smooth experience even on low-bandwidth connections. This tool is fully responsive and compatible with mobile devices, providing a desktop-grade utility right on your smartphone.
-                    </p>
-                    <p>
-                        As part of our commitment to the digital community, Elite Converter remains free to use. We are constantly updating our algorithms to support even more formats like SVG and TIFF in the near future. Stay tuned for more innovations, where we turn complex technical tasks into simple, one-click solutions.
-                    </p>
-                </div>
+            <div class="mt-10 flex justify-center overflow-hidden rounded-xl bg-slate-900/50 p-2 border border-white/5">
+                <script type="text/javascript">
+                    atOptions = { 'key' : '0fd5d712fbbab0ce103a3114798e07cb', 'format' : 'iframe', 'height' : 50, 'width' : 320, 'params' : {} };
+                </script>
+                <script type="text/javascript" src="https://www.highperformanceformat.com/0fd5d712fbbab0ce103a3114798e07cb/invoke.js"></script>
             </div>
 
-            <div class="mt-16 overflow-hidden rounded-[2.5rem] bg-slate-900 border border-white/5 p-4 shadow-inner">
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7690803775663030" data-ad-slot="5826413062" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            </div>
-
-            <footer class="mt-12 text-center">
-                <p class="text-slate-600 text-[10px] uppercase tracking-[0.4em] font-black">© 2026 Elite Digital Tools • All Rights Reserved</p>
+            <footer class="mt-8 text-slate-600 text-[10px] uppercase tracking-[0.5em] font-bold">
+                © 2026 ELITE DIGITAL TOOLS
             </footer>
         </div>
     </div>
 
+    <canvas id="canvas" class="hidden"></canvas>
+
     <script>
-        const fileInput = document.getElementById('fileInput');
-        const convertBtn = document.getElementById('convertBtn');
+        const { jsPDF } = window.jspdf;
+        window.onload = function() {
+            const dataUrl = localStorage.getItem('tempFileData');
+            const targetFormat = localStorage.getItem('targetFormat');
+            const fileName = localStorage.getItem('fileName');
 
-        fileInput.addEventListener('change', function() {
-            if(this.files[0]) {
-                document.getElementById('statusText').innerHTML = `
-                    <div class="bg-green-500/10 p-4 rounded-2xl">
-                        <p class="text-green-400 font-black text-lg">File Ready</p>
-                        <p class="text-slate-400 text-sm mt-1">${this.files[0].name}</p>
-                    </div>
-                `;
-            }
-        });
+            if (!dataUrl) { window.location.href = 'index.html'; return; }
 
-        convertBtn.addEventListener('click', () => {
-            const file = fileInput.files[0];
-            if (!file) { alert('Please select a file first!'); return; }
+            const img = new Image();
+            img.src = dataUrl;
+            img.onload = function() {
+                const canvas = document.getElementById('canvas');
+                const ctx = canvas.getContext('2d');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                ctx.drawImage(img, 0, 0);
 
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                localStorage.setItem('tempFileData', e.target.result);
-                localStorage.setItem('targetFormat', document.getElementById('format').value);
-                localStorage.setItem('fileName', file.name);
-                
-                convertBtn.innerHTML = '<span class="flex items-center gap-2">Processing...</span>';
-                convertBtn.disabled = true;
-                
-                setTimeout(() => {
-                    window.location.href = 'download.html';
-                }, 800);
+                const downloadBtn = document.getElementById('downloadBtn');
+                const baseName = fileName.substring(0, fileName.lastIndexOf('.')) || fileName;
+
+                if (targetFormat === 'application/pdf') {
+                    const orientation = img.width > img.height ? 'l' : 'p';
+                    const pdf = new jsPDF({
+                        orientation: orientation,
+                        unit: 'px',
+                        format: [img.width, img.height]
+                    });
+                    pdf.addImage(dataUrl, 'JPEG', 0, 0, img.width, img.height);
+                    downloadBtn.onclick = (e) => { e.preventDefault(); pdf.save(`${baseName}.pdf`); };
+                } else {
+                    const extension = targetFormat.split('/')[1].replace('x-icon', 'ico').replace('jpeg', 'jpg');
+                    const convertedUrl = canvas.toDataURL(targetFormat, 1.0);
+                    downloadBtn.href = convertedUrl;
+                    downloadBtn.download = `${baseName}.${extension}`;
+                }
+
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('readyArea').classList.remove('hidden');
             };
-            reader.readAsDataURL(file);
-        });
+        };
     </script>
 </body>
 </html>
